@@ -21,8 +21,10 @@ const EmployeeForm = ({ employee, departments, onSave, onCancel }) => {
             if (departments.length > 0) {
                 setdepId(departments[0].depId); //setting just def id u can change later
             }
+            else{
+                setdepId("");
         }
-    }, [])
+    }, [employee,departments])
     function handleSubmit(e) {
         e.preventDefault();
         const empData = {
