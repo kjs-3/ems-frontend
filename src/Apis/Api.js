@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080"; //our server area
+const BASE_URL = "https://ems-backend-bjdd.onrender.com"; //our server area
 //func which will talk to the backend where every comp will  call this func and pass
 // url
 //after login or before login this func will be called 
